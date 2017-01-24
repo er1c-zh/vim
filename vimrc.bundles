@@ -1,0 +1,12 @@
+filetype off
+set rtp+=~/.vim/bundle/vundle/
+call vundle#rc()
+
+" vundle : avoid to clean vundleself
+Bundle "gmarik/vundle.git"
+
+" nerdtree : show file tree
+Bundle "scrooloose/nerdtree"
+
+" airline : status bar
+Bundle "vim-airline/vim-airline.git"
