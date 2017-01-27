@@ -1,6 +1,7 @@
+set nocompatible
 filetype off
-set rtp+=~/.vim/bundle/vundle/
-call vundle#rc()
+set rtp+=~/.vim/bundle/Vundle.vim/
+call vundle#begin()
 
 " vundle : avoid to clean vundleself
 Bundle "gmarik/vundle.git"
@@ -10,3 +11,18 @@ Bundle "scrooloose/nerdtree"
 
 " airline : status bar
 Bundle "vim-airline/vim-airline.git"
+
+" vim-eldar theme
+Bundle "agude/vim-eldar"
+
+" vim-gitgutter
+Bundle "airblade/vim-gitgutter"
+
+" vim-signify
+Bundle "mhinz/vim-signify"
+
+" vim-fugitive
+Bundle "tpope/vim-fugitive"
+
+call vundle#end()
+filetype plugin indent on
