@@ -61,3 +61,8 @@ set updatetime=250
 """"""""""""""""""""""
 " change filetype for asm file to nasm
 au BufRead,BufNewFile *.asm set filetype=nasm
+
+""""""""""""""""""""""
+"collopise
+""""""""""""""""""""""
+set fdm=syntax
