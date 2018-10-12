@@ -36,7 +36,7 @@ nmap ]h <Plug>GitGutterNextHunk
 nmap [h <Plug>GitGutterPrevHunk
 
 """"""""""""""""""""""
-"vim cfg
+"vim cfg             "
 """"""""""""""""""""""
 "open syntax highlight
 syntax on
@@ -56,13 +56,18 @@ highlight CursorLine cterm=NONE ctermbg=black ctermfg=green
 
 "revise delay time for git-gutter (ms)
 set updatetime=250
+
+"collopise
+set fdm=syntax
+
+"set tab width
+set ts=4
+"convert tab 2 space
+set expandtab
+
 """"""""""""""""""""""
-"auto cmd
+"auto cmd            "
 """"""""""""""""""""""
 " change filetype for asm file to nasm
 au BufRead,BufNewFile *.asm set filetype=nasm
 
-""""""""""""""""""""""
-"collopise
-""""""""""""""""""""""
-set fdm=syntax
