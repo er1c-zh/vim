@@ -11,4 +11,5 @@ sudo apt-get install fonts-powerline
 
 vim +PluginInstall +qall
 
-echo "Vim init finish!\n"
+echo "Vim init finish!"
+echo "If airline-font is broken, please try set shell use utf-8!"
