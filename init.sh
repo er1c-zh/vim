@@ -1,8 +1,12 @@
 #!/bin/bash
+
+## clone vundle repo
 git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+
 cp ./vimrc ~/.vimrc
 cp ./vimrc.bundles ~/.vimrc.bundles
 
+## install fonts
 sudo apt-get install fonts-powerline
 
 vim +PluginInstall +qall
