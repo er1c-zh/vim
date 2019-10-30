@@ -1,10 +1,11 @@
 set nocompatible
 filetype off
+
 set rtp+=~/.vim/bundle/Vundle.vim/
 call vundle#begin()
 
 " vundle : avoid to clean vundleself
-Bundle "gmarik/vundle.git"
+Bundle "VundleVim/Vundle.vim"
 
 " nerdtree : show file tree
 Bundle "scrooloose/nerdtree"
@@ -23,6 +24,8 @@ Bundle "mhinz/vim-signify"
 
 " vim-fugitive
 Bundle "tpope/vim-fugitive"
+
+Bundle "suan/vim-instant-markdown", {"rtp": "after"}
 
 call vundle#end()
 filetype plugin indent on
