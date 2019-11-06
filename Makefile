@@ -7,5 +7,6 @@ init:
 sync:
 	cp ./vimrc ../.vimrc
 	cp ./vimrc.bundles ../.vimrc.bundles
+	cp ./ctags ../.ctags
 	vim +PluginInstall +qall
 

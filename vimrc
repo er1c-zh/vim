@@ -48,6 +48,19 @@ nmap [h <Plug>GitGutterPrevHunk
 "let g:instant_markdown_port = 8888
 "let g:instant_markdown_python = 1
 
+" ctags support markdown
+let g:tagbar_type_markdown = {
+            \ 'ctagstype' : 'markdown',
+            \ 'kinds' : [
+                \ 'h:headings',
+                \ 'l:links',
+                \ 'i:images'
+            \ ],
+    \ "sort" : 0
+\ }
+" use F4 to toggle tagbar
+map <F4> :TagbarToggle<CR>
+
 """"""""""""""""""""""
 "vim cfg             "
 """"""""""""""""""""""

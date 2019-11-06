@@ -1,3 +1,14 @@
+# a simple vim config
+
+## package need install
+
+- fonts-powerline `air-line`
+- xdg-utils `markdown-preview`
+- curl `markdown-preview`
+- nodejs `markdown-preview`
+- npm `markdown-preview`
+- ctags `tagbar`
+
 ## init
 
 ``` shell script
