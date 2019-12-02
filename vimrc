@@ -21,7 +21,8 @@ if !exists('g:airline_symbols')
 endif
 "  open branch on airline
 let g:airline#extensions#branch#enabled=1
-let g:airline_section_b = '%{strftime("%m-%d %H:%M")}'
+let g:airline_section_b = '%{strftime("%m-%d %H:%M")} %{airline#util#wrap(airline#extensions#hunks#get_hunks(),100)}%{airline#util#wrap(airline#extensions#branch#get_head(),80)}'
+let g:airline#extensions#tabline#enabled = 1
 
 " powerline symbols
 let g:airline_left_sep = ''
