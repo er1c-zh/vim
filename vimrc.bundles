@@ -29,5 +29,8 @@ Bundle "tpope/vim-fugitive"
 Bundle "suan/vim-instant-markdown", {"rtp": "after"}
 Bundle "majutsushi/tagbar"
 
+" show marks
+Bundle "kshenoy/vim-signature"
+
 call vundle#end()
 filetype plugin indent on
