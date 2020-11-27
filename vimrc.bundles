@@ -32,5 +32,11 @@ Bundle "majutsushi/tagbar"
 " show marks
 Bundle "kshenoy/vim-signature"
 
+" language support
+" rust
+Plugin 'rust-lang/rust.vim'
+" go
+Plugin 'fatih/vim-go'
+
 call vundle#end()
 filetype plugin indent on
