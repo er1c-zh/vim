@@ -12,7 +12,7 @@
 ## init
 
 ``` shell script
-    git clone https://github.com/EriCZZZZ/vim.git ~/.vim
+    git clone https://github.com/er1c-zh/vim.git ~/.vim
     cd ~/.vim
     ./init.sh
 ```
