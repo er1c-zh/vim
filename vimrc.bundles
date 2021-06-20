@@ -8,35 +8,35 @@ call vundle#begin()
 Bundle "VundleVim/Vundle.vim"
 
 " nerdtree : show file tree
-Bundle "scrooloose/nerdtree"
+Bundle "https://gitclone.com/github.com/scrooloose/nerdtree"
 
 " airline : status bar
-Bundle "vim-airline/vim-airline.git"
+Bundle "https://gitclone.com/github.com/vim-airline/vim-airline.git"
 
 " vim-eldar theme
-Bundle "agude/vim-eldar"
+Bundle "https://gitclone.com/github.com/agude/vim-eldar"
 
 " vim-gitgutter
-Bundle "airblade/vim-gitgutter"
+Bundle "https://gitclone.com/github.com/airblade/vim-gitgutter"
 
 " vim-signify
-Bundle "mhinz/vim-signify"
+Bundle "https://gitclone.com/github.com/mhinz/vim-signify"
 
 " vim-fugitive
-Bundle "tpope/vim-fugitive"
+Bundle "https://gitclone.com/github.com/tpope/vim-fugitive"
 
 " markdown
-Bundle "suan/vim-instant-markdown", {"rtp": "after"}
-Bundle "majutsushi/tagbar"
+Bundle "https://gitclone.com/github.com/suan/vim-instant-markdown", {"rtp": "after"}
+Bundle "https://gitclone.com/github.com/majutsushi/tagbar"
 
 " show marks
-Bundle "kshenoy/vim-signature"
+Bundle "https://gitclone.com/github.com/kshenoy/vim-signature"
 
 " language support
 " rust
-Plugin 'rust-lang/rust.vim'
+Plugin 'https://gitclone.com/github.com/rust-lang/rust.vim'
 " go
-Plugin 'fatih/vim-go'
+Plugin 'https://gitclone.com/github.com/fatih/vim-go'
 
 call vundle#end()
 filetype plugin indent on
