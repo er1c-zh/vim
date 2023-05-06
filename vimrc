@@ -99,3 +99,21 @@ set expandtab
 " change filetype for asm file to nasm
 au BufRead,BufNewFile *.asm set filetype=nasm
 
+""""""""""""""""""""""
+" for colemak        "
+""""""""""""""""""""""
+" movement key
+noremap n j
+noremap N J
+noremap <C-w>n <C-w>j
+noremap e k
+noremap E K
+noremap <C-w>e <C-w>k
+noremap i l
+noremap I L
+noremap <C-w>i <C-w>l
+
+noremap k n
+noremap K N
+noremap l i
+noremap L I
