@@ -79,8 +79,8 @@ set smartindent
 "highlight line and row under cursor
 set cursorcolumn
 set cursorline
-highlight CursorColumn cterm=NONE ctermbg=black ctermfg=green
-highlight CursorLine cterm=NONE ctermbg=black ctermfg=green
+"highlight CursorColumn cterm=NONE ctermbg=black ctermfg=green
+"highlight CursorLine cterm=NONE ctermbg=black ctermfg=green
 
 "revise delay time for git-gutter (ms)
 set updatetime=250
